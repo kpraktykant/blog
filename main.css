@@ -95,7 +95,7 @@ h1.title
 
 .margin
 {
-    margin: 0 12px;
+    margin: 16px 12px;
     border-top: 2px lightgray dashed;
     opacity: 0.1;
 }
@@ -174,7 +174,10 @@ h1.title
     font-weight: 700;
 }
 
-
+.hnomargin
+{
+    margin: 0;
+}
 
 
 
