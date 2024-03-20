@@ -1,9 +1,20 @@
 body
 {
-    background-color: #2b2b2e;
+    background-color: #16161d;
     font-family: monospace;
     margin: 0;
     color: #efefef;
+}
+
+.search
+{
+    background-color: #2b2b2e;
+    color: #efefef;
+    opacity: 0.4;
+    width: 120px;
+    height: 20px;
+    position: relative; left: 85%;
+    margin: 12px 0;
 }
 
 .topnav
@@ -14,9 +25,17 @@ body
 
 #categs
 {
+    position: relative; right: 3%;
     text-align: center;
     font-size: 20px;
-    padding-top: 50px;
+    padding-top: 42px;
+}
+
+.post
+{
+    width: fit-content;
+    height: fit-content;
+    position:  relative; left: 22%
 }
 
 .cat1
@@ -50,6 +69,7 @@ body
     opacity: 0.2;
     display: inline-block;
 }
+
 
 #categs a
 {
@@ -102,6 +122,7 @@ h1.title
 
 .tcontent
 {
+    width: 500px;
     font-size: 16px;
     padding: 0 18px;
 }
